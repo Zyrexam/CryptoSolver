@@ -1,0 +1,85 @@
+{
+  "problems": [
+    {
+      "id": "caesar_1",
+      "title": "Caesar's Secret",
+      "description": "Julius Caesar used this simple cipher to protect his military communications. Each letter is shifted by a fixed number of positions in the alphabet.",
+      "difficulty": "Easy",
+      "category": "Classical",
+      "points": 50,
+      "requiredLevel": 1,
+      "cipherText": "KHOOR ZRUOG",
+      "correctAnswer": "HELLO WORLD",
+      "hints": [
+        "Try shifting each letter by 3 positions backward",
+        "A becomes X, B becomes Y, C becomes Z"
+      ],
+      "icon": "🏛️"
+    },
+    {
+      "id": "atbash_1",
+      "title": "Mirror Writing",
+      "description": "An ancient Hebrew cipher where the alphabet is reversed. A becomes Z, B becomes Y, and so on.",
+      "difficulty": "Easy",
+      "category": "Classical",
+      "points": 75,
+      "requiredLevel": 1,
+      "cipherText": "XIBKRMT",
+      "correctAnswer": "CRYPTOS",
+      "hints": [
+        "The alphabet is completely reversed",
+        "A=Z, B=Y, C=X, D=W..."
+      ],
+      "icon": "🪞"
+    },
+    {
+      "id": "vigenere_1",
+      "title": "The Unbreakable Cipher",
+      "description": "Once thought to be unbreakable, this polyalphabetic cipher uses a keyword to encrypt the message.",
+      "difficulty": "Medium",
+      "category": "Polyalphabetic",
+      "points": 150,
+      "requiredLevel": 2,
+      "cipherText": "LXFOPVEFRNHR",
+      "correctAnswer": "ATTACKATDAWN",
+      "hints": [
+        "The keyword is 'LEMON'",
+        "Each letter of the keyword shifts the corresponding plaintext letter"
+      ],
+      "icon": "🔑"
+    },
+    {
+      "id": "playfair_1",
+      "title": "Square Dance",
+      "description": "A digraph substitution cipher using a 5×5 grid of letters. Pairs of letters are encrypted together.",
+      "difficulty": "Hard",
+      "category": "Polygraphic",
+      "points": 250,
+      "requiredLevel": 3,
+      "cipherText": "BMODZBXDNABEKUDMUIXMMOUVIF",
+      "correctAnswer": "HIDETHEGOLDINTHEXTREXSTUMP",
+      "hints": [
+        "The keyword is 'PLAYFAIREXAMPLE'",
+        "Letters are encrypted in pairs",
+        "Replace J with I in the grid"
+      ],
+      "icon": "⬜"
+    },
+    {
+      "id": "morse_1",
+      "title": "Dots and Dashes",
+      "description": "Not exactly a cipher, but a code system using dots and dashes to represent letters.",
+      "difficulty": "Easy",
+      "category": "Code",
+      "points": 60,
+      "requiredLevel": 1,
+      "cipherText": "... --- ...",
+      "correctAnswer": "SOS",
+      "hints": [
+        "S = ..., O = ---",
+        "This is a famous distress signal"
+      ],
+      "icon": "📡"
+    }
+  ]
+}
